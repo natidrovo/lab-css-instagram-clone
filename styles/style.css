@@ -8,3 +8,84 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+p{
+  line-height: 2;
+}
+#bg {
+  background-image: url(../images/bgtile.png);
+  background-repeat:repeat;
+  height: 240px;
+
+}
+
+#main {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  padding: 64px;
+  justify-content: space-evenly;
+}
+#logo{
+  height: 64px;
+}
+#cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#info{
+  width: 60%;
+background-color: transparent;
+}
+#cta{
+  padding: 8px 12px;
+  width: 80px;
+  background: linear-gradient(to bottom,#1c5380, #06365f);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#button-text{
+  color: white;
+}
+#text-content {
+ background-image: url(../images/frame.png);
+ background-repeat: no-repeat;
+background-size: cover;
+height: 320px;
+width: fit-content;
+padding:40px 32px 32px 40px;
+margin-top: 16px;
+}
+
+#download-links {
+  display: flex;
+  align-items:flex-start;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+.title {
+  color:#1c5380;
+  font-weight: bold;
+  font-size: 24px;
+  width: 60%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+.footer-list{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  width: 60%;
+  color: #1c5380;
+}
+.footer-items {
+  font-weight: bold;
+}
+#last-item {
+  color: lightslategray;
+}
