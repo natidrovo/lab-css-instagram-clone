@@ -52,8 +52,7 @@ background-color: transparent;
  background-image: url(../images/frame.png);
  background-repeat: no-repeat;
 background-size: cover;
-height: 320px;
-width: fit-content;
+background-repeat: round;
 padding:40px 32px 32px 48px;
 margin-top: 16px;
 }
